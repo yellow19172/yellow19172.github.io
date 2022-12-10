@@ -1203,7 +1203,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #089660;
+  background: #6bffba;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2609,7 +2609,7 @@ body {
   background: url("/images/background.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
-  background-position: 50% 50%;
+  background-position: -10% 0%;
   color: var(--text-color);
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
