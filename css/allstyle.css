@@ -1,0 +1,32 @@
+#nav-right{
+    flex:1 1 auto;
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+.nav-fixed #nav{
+    transform: translateY(58px)!important;
+    -webkit-transform: translateY(58px)!important;
+    -moz-transform: translateY(58px)!important;
+    -ms-transform: translateY(58px)!important;
+    -o-transform: translateY(58px)!important;
+}
+#nav{
+    transition: none!important;
+    -webkit-transition: none!important;
+    -moz-transition: none!important;
+    -ms-transition: none!important;
+    -o-transition: none!important;
+}
+
+/* 鼠标样式 */
+body {
+    cursor: url("https://cdn.jsdelivr.net/gh/xlenco/JS-X@main/mouse/normal.cur"), default;
+  }
+  a,
+  img,
+  button {
+    cursor: url("https://cdn.jsdelivr.net/gh/xlenco/JS-X@main/mouse/link.cur"), default !important;
+  }
